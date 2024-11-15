@@ -21,6 +21,47 @@ body {
     padding: 20px;
 }
   
+/* Estilo do carrossel */
+.carousel {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden; /* Esconde partes das imagens que saem do contêiner */
+  }
+  
+  .carousel-image {
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: carouselAnimation 9s infinite; /* Animação para troca de imagens */
+  }
+  
+  .carousel-image:nth-child(1) {
+    animation-delay: 0s; /* Primeira imagem */
+  }
+  
+  .carousel-image:nth-child(2) {
+    animation-delay: 3s; /* Segunda imagem */
+  }
+  
+  .carousel-image:nth-child(3) {
+    animation-delay: 6s; /* Terceira imagem */
+  }
+  
+  /* Animação */
+  @keyframes carouselAnimation {
+    0%, 33% {
+      opacity: 1; /* Imagem visível */
+    }
+    34%, 100% {
+      opacity: 0; /* Imagem invisível */
+    }
+  }
+ 
+/* Estilos do cartão (mantendo os existentes) */
 .card {
     background-color: #E28F83;
     border-radius: 15px;
@@ -29,14 +70,14 @@ body {
     color: #ffffff;
     text-align: left;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-}
+  }
   
-.card:hover {
-    transform: translateY(-10px) scale(1.05); 
+  .card:hover {
+    transform: translateY(-10px) scale(1.05);
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
-    background-color: #8E9775; 
+    background-color: #8E9775;
     cursor: pointer;
-}
+  }
   
 .card-imagem img {
     width: 100%;
