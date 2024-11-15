@@ -34,7 +34,7 @@ body {
 .card:hover {
     transform: translateY(-10px) scale(1.05); 
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
-    background-color: #1a3b56; 
+    background-color: #8E9775; 
     cursor: pointer;
 }
   
@@ -142,8 +142,4 @@ hr {
       width: 90%;
       max-width: 320px;
     }
-}
-
-.nome-sherebie{
-
 }
