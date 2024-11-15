@@ -9,7 +9,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #0d1a26;
+    background-color: #ffffff;
     font-family: 'Arial', sans-serif;
 }
   
@@ -22,7 +22,7 @@ body {
 }
   
 .card {
-    background-color: #142c42;
+    background-color: #E28F83;
     border-radius: 15px;
     width: 320px;
     padding: 20px;
@@ -45,13 +45,13 @@ body {
   
 .card-title {
     font-size: 1.3em;
-    color: #ffffff;
+    color: #4A5030;
     margin: 20px 0 10px;
     font-weight: bold;
 }
   
 .card-descricao {
-    color: #8daabf;
+    color: #4A5030;
     font-size: 1em;
     margin-bottom: 20px;
 }
@@ -76,7 +76,7 @@ body {
   
 hr {
     border: none;
-    border-top: 0.9px solid #8daabf;
+    border-top: 0.9px solid #4A5030;
     width: 100%;
     margin: 20px auto;
 }
@@ -94,7 +94,7 @@ hr {
 }
   
 .card-creator span {
-    color: #8daabf;
+    color: #4A5030;
     font-size: 0.9em;
 }
   
@@ -105,7 +105,7 @@ hr {
 }
   
 .card-creator a:hover {
-    color: #00fff7;
+    color: #8E9775;
 }
   
 .preco span {
