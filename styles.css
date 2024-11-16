@@ -24,13 +24,13 @@ header {
     z-index: 100;
     border-bottom: 1px solid #e5e5e5;
     display: flex;
-    justify-content: flex-start; /* Garante que a logo e o título fiquem alinhados à esquerda */
+    justify-content: flex-start; 
     align-items: center;
     flex-wrap: wrap; 
 }
 
 header .logo {
-    margin-right: 10px; /* Pequeno espaço entre a logo e o título */
+    margin-right: 10px; 
 }
 
 header .logo img {
@@ -38,7 +38,7 @@ header .logo img {
     width: 50px;
     border-radius: 50%;
     object-fit: cover;
-    margin-right: 10px; /* Pequeno espaço entre a logo e o h1 */
+    margin-right: 10px; 
 }
 
 header h1 {
@@ -48,12 +48,12 @@ header h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: 'Helvetica Neue', sans-serif;
-    margin: 0; /* Remove margens padrão */
+    margin: 0; 
 }
 
 nav ul {
     display: flex;
-    gap: 10px; /* Espaço entre os ícones */
+    gap: 10px; 
     list-style: none;
     padding: 0;
     margin: 0;
