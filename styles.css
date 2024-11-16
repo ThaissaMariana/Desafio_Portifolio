@@ -85,7 +85,7 @@ header h1 a:hover {
 
 .cardlist {
     display: grid;
-    gap: 20px;;
+    gap: 20px;
     padding: 20px;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     width: 100%;
@@ -96,9 +96,9 @@ header h1 a:hover {
     width: 100%;
     height: auto;
     overflow: hidden; 
-  }
+}
   
-  .carousel-image {
+.carousel-image {
     width: 100%;
     border-radius: 10px;
     position: absolute;
@@ -106,28 +106,28 @@ header h1 a:hover {
     left: 0;
     opacity: 0;
     animation: carouselAnimation 9s infinite; 
-  }
+}
   
-  .carousel-image:nth-child(1) {
+.carousel-image:nth-child(1) {
     animation-delay: 0s; 
-  }
+}
   
-  .carousel-image:nth-child(2) {
+.carousel-image:nth-child(2) {
     animation-delay: 3s; 
-  }
+}
   
-  .carousel-image:nth-child(3) {
+.carousel-image:nth-child(3) {
     animation-delay: 6s; 
-  }
+}
   
-  @keyframes carouselAnimation {
+@keyframes carouselAnimation {
     0%, 33% {
-      opacity: 1; 
+        opacity: 1; 
     }
     34%, 100% {
-      opacity: 0; 
+        opacity: 0; 
     }
-  }
+}
  
 .card {
     background-color: #E28F83;
@@ -137,14 +137,14 @@ header h1 a:hover {
     color: #ffffff;
     text-align: left;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-  }
+}
   
-  .card:hover {
+.card:hover {
     transform: translateY(-10px) scale(1.05);
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
     background-color: #8E9775;
     cursor: pointer;
-  }
+}
   
 .card-imagem img {
     width: 100%;
@@ -164,28 +164,24 @@ header h1 a:hover {
     margin-bottom: 20px;
 }
   
-.card-info {
+.card-info, .card-infoo {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
     color: #00fff7;
     font-size: 0.9em;
-    gap: 15px; 
+    gap: 15px;
+}
+
+.card-info {
+    margin-bottom: 20px;
 }
 
 .card-infoo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    color: #00fff7;
-    font-size: 0.9em;
-    gap: 15px; 
     margin-left: 270px;
     margin-top: 20px;
 }
-  
+
 .card-info .preco, .card-info .dias {
     display: flex;
     align-items: center;
@@ -236,7 +232,6 @@ hr {
     font-weight: bold;
     font-size: 1em;
     color: #000000; 
-    font-weight: bold;
     font-size: 18px;
 }
 
@@ -254,12 +249,12 @@ hr {
   
 @media (max-width: 768px) {
     .cardlist {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
   
     .card {
-      width: 90%;
-      max-width: 320px;
+        width: 90%;
+        max-width: 320px;
     }
 }
