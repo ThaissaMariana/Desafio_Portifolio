@@ -82,14 +82,6 @@ nav ul li a:hover {
 header h1 a:hover {
     color: #E28F83;
 }
-
-.cardlist {
-    display: grid;
-    gap: 20px;
-    padding: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    width: 100%;
-}
   
 .carousel {
     position: relative;
@@ -129,15 +121,25 @@ header h1 a:hover {
     }
 }
  
+.cardlist {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(4, 1fr); /* Garantir 4 colunas */
+    width: 100%;
+}
+
 .card {
     background-color: #E28F83;
     border-radius: 15px;
-    width: 320px;
+    width: 100%;  /* Permitir que o card ocupe 100% do espaço disponível */
+    max-width: 320px; /* Limitar a largura máxima do card */
     padding: 20px;
     color: #ffffff;
     text-align: left;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
+
   
 .card:hover {
     transform: translateY(-10px) scale(1.05);
@@ -164,22 +166,12 @@ header h1 a:hover {
     margin-bottom: 20px;
 }
   
-.card-info, .card-infoo {
+.card-info {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin-bottom: 20px;
     color: #00fff7;
     font-size: 0.9em;
-    gap: 15px;
-}
-
-.card-info {
-    margin-bottom: 20px;
-}
-
-.card-infoo {
-    margin-left: 270px;
-    margin-top: 20px;
 }
 
 .card-info .preco, .card-info .dias {
@@ -248,13 +240,60 @@ hr {
 }
   
 @media (max-width: 768px) {
-    .cardlist {
+    .header-content {
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
-  
+
+    header h1 {
+        margin-left: 0; 
+        font-size: 1.2rem; 
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px; 
+    }
+
+    .header-icons {
+        gap: 10px;
+    }
+
+    .cardlist {
+        grid-template-columns: 1fr; 
+    }
+
     .card {
-        width: 90%;
+        width: 90%; 
         max-width: 320px;
     }
 }
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px 20px; 
+    }
+
+    header h1 {
+        font-size: 1rem; 
+    }
+
+    nav ul {
+        gap: 8px; 
+    }
+
+    .card {
+        padding: 15px; 
+    }
+
+    .card-title {
+        font-size: 1.1em; 
+    }
+
+    .card-descricao {
+        font-size: 0.9em; 
+    }
+}
+
+ 
