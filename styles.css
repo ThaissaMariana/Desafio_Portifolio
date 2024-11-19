@@ -24,13 +24,16 @@ header {
     z-index: 100;
     border-bottom: 1px solid #e5e5e5;
     display: flex;
-    justify-content: flex-start; 
+    justify-content:space-around; 
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    gap: 0px; 
+    
 }
 
 header .logo {
-    margin-right: 10px; 
+    display: flex;
+    align-items: center; 
 }
 
 header .logo img {
@@ -38,7 +41,11 @@ header .logo img {
     width: 50px;
     border-radius: 50%;
     object-fit: cover;
-    margin-right: 10px; 
+    
+}
+
+.logo {
+    margin-bottom: 5px;
 }
 
 header h1 {
@@ -48,12 +55,13 @@ header h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: 'Helvetica Neue', sans-serif;
-    margin: 0; 
+    margin-top: 0;
+    
 }
 
 nav ul {
     display: flex;
-    gap: 10px; 
+    gap: 15px; 
     list-style: none;
     padding: 0;
     margin: 0;
@@ -61,10 +69,6 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-}
-
-.filmes {
-    margin-left: 280px;
 }
 
 nav ul li a {
@@ -123,17 +127,19 @@ header h1 a:hover {
  
 .cardlist {
     display: grid;
-    gap: 20px;
+    gap: 15px;
     padding: 20px;
-    grid-template-columns: repeat(4, 1fr); /* Garantir 4 colunas */
+    grid-template-columns: repeat(4, 1fr); 
     width: 100%;
+    max-width: 1300px; 
+    margin: 0 auto;
 }
 
 .card {
     background-color: #E28F83;
     border-radius: 15px;
-    width: 100%;  /* Permitir que o card ocupe 100% do espaço disponível */
-    max-width: 320px; /* Limitar a largura máxima do card */
+    width: 100%;  
+    max-width: 320px; 
     padding: 20px;
     color: #ffffff;
     text-align: left;
@@ -237,6 +243,13 @@ hr {
   
 .dias {
     color: #8daabf;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+
+.preco {
+    margin-right: 3px;
+    margin-left: 3px;
 }
   
 @media (max-width: 768px) {
@@ -275,6 +288,7 @@ hr {
         padding: 10px 20px; 
     }
 
+
     header h1 {
         font-size: 1rem; 
     }
@@ -296,4 +310,47 @@ hr {
     }
 }
 
- 
+@media (max-width: 768px) {
+    .cardlist {
+        grid-template-columns: 1fr 1fr;
+        padding: 10px; 
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .cardlist {
+        grid-template-columns: 1fr;
+        padding: 10px; 
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; 
+        align-items: center;
+        gap: 15px; 
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px; 
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px; 
+    }
+
+    header .logo {
+        margin-right: 3px; 
+    }
+
+    .preco,
+    .dias {
+        margin-left: 3px; 
+    }
+}
