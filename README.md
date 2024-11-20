@@ -1,6 +1,10 @@
 ## Shrek in Barbie World
 Este projeto é um portfólio inspirado em uma fusão criativa entre Shrek e o universo da Barbie. Ele apresenta cards animados e interativos que destacam diversas aventuras do Shrek em cenários estilizados do mundo Barbie.
 
+## Autores
+- Laryssa Vitoria Cadette Antunes
+- Thaissa Mariana Santos de Oliveira
+
 ## Estrutura do Projeto
 - HTML: O arquivo principal index.html contém o layout da página.
 - CSS: O estilo da página é gerenciado no arquivo styles.css, complementado por bibliotecas externas como Animate.css e Font Awesome.
