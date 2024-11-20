@@ -91,3 +91,42 @@ Este projeto é um portfólio inspirado em uma fusão criativa entre Shrek e o u
 
 ## Shrek and the Fairy Secret
 ![Imagem 1](./images/fadinha.jpeg)
+
+### Imagens e Vídeo 
+
+## Adicionando a imagem demonstrando o site 
+![Imagem 1](./images-site/Captura%20de%20Tela%20(15).png)
+
+## Adicionando a imagem demonstrando o funcionamento do hover no card 
+![Imagem 2](./images-site/Captura%20de%20Tela%20(19).png)
+
+## Adicionando a imagem demonstrando o funcionamento do hover no título
+![Imagem 3](./images-site/Captura%20de%20Tela%20(17).png)
+
+## Adicionando a imagem demonstrando o funcionamento do hover no films, images e curiosities
+![Imagem 4](./images-site/Captura%20de%20Tela%20(18).png)
+
+## Adicionando a imagem demonstrando o funcionamento da página films 
+![Imagem 6](./images-site/Captura%20de%20Tela%20(20).png)
+
+## Adicionando a imagem demonstrando o funcionamento da página images
+![Imagem 7](./images-site/Captura%20de%20Tela%20(21).png)
+
+## Adicionando a imagem demonstrando o funcionamento da página curiosities
+![Imagem 8](./images-site/Captura%20de%20Tela%20(22).png)
+
+## Adicionando imagens demonstrando o funcionamento de duas das animações (animate__animated animate__zoomIn e animate__animated animate__hinge)
+![Imagem 9](./images-site/Captura%20de%20Tela%20(24).png)
+![Imagem 10](./images-site/Captura%20de%20Tela%20(26).png)
+
+## Adicionando vídeo demonstrando o funcionamento do site no notebook
+![Imagem 11](./images-site/Portifólio%20-%20Google%20Chrome%202024-11-19%2019-25-43.mp4)
+
+## Adicionando vídeo demonstrando se o site está responsivo no notebook 
+![Imagem 12](./images-site/Portifólio%20-%20Google%20Chrome%202024-11-19%2020-32-14.mp4)
+
+## Adicionando vídeo demonstrando o funcionamento do site no celular
+![Imagem 13](./images-site/Portifólio%20Video%202024-11-19%20at%2021.15.54.mp4)
+
+### Link do site no ar
+- https://thaissamariana.github.io/Desafio_Portifolio/
