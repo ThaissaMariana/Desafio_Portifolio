@@ -120,13 +120,13 @@ Este projeto é um portfólio inspirado em uma fusão criativa entre Shrek e o u
 ![Imagem 10](./images-site/Captura%20de%20Tela%20(26).png)
 
 ## Adicionando vídeo demonstrando o funcionamento do site no notebook
-![Imagem 11](./images-site/Portifólio%20-%20Google%20Chrome%202024-11-19%2019-25-43.mp4)
+[📹 Veja o vídeo de demonstração](./images-site/Portifólio%20-%20Google%20Chrome%202024-11-19%2019-25-43.mp4)
 
 ## Adicionando vídeo demonstrando se o site está responsivo no notebook 
-![Imagem 12](./images-site/Portifólio%20-%20Google%20Chrome%202024-11-19%2020-32-14.mp4)
+[📹 Veja o vídeo de demonstração](./images-site/Portifólio%20-%20Google%20Chrome%202024-11-19%2020-32-14.mp4)
 
 ## Adicionando vídeo demonstrando o funcionamento do site no celular
-![Imagem 13](./images-site/Portifólio%20Video%202024-11-19%20at%2021.15.54.mp4)
+[📹 Veja o vídeo de demonstração](./images-site/Portifólio%20Video%202024-11-19%20at%2021.15.54.mp4)
 
 ### Link do site no ar
 - https://thaissamariana.github.io/Desafio_Portifolio/
